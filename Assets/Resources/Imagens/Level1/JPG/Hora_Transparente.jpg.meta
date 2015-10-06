@@ -1,0 +1,707 @@
+fileFormatVersion: 2
+guid: f927f5967bc17674da2a55446abe2b78
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hora_Transparente_0
+    21300002: Hora_Transparente_1
+    21300004: Hora_Transparente_2
+    21300006: Hora_Transparente_3
+    21300008: Hora_Transparente_4
+    21300010: Hora_Transparente_5
+    21300012: Hora_Transparente_6
+    21300014: Hora_Transparente_7
+    21300016: Hora_Transparente_8
+    21300018: Hora_Transparente_9
+    21300020: Hora_Transparente_10
+    21300022: Hora_Transparente_11
+    21300024: Hora_Transparente_12
+    21300026: Hora_Transparente_13
+    21300028: Hora_Transparente_14
+    21300030: Hora_Transparente_15
+    21300032: Hora_Transparente_16
+    21300034: Hora_Transparente_17
+    21300036: Hora_Transparente_18
+    21300038: Hora_Transparente_19
+    21300040: Hora_Transparente_20
+    21300042: Hora_Transparente_21
+    21300044: Hora_Transparente_22
+    21300046: Hora_Transparente_23
+    21300048: Hora_Transparente_24
+    21300050: Hora_Transparente_25
+    21300052: Hora_Transparente_26
+    21300054: Hora_Transparente_27
+    21300056: Hora_Transparente_28
+    21300058: Hora_Transparente_29
+    21300060: Hora_Transparente_30
+    21300062: Hora_Transparente_31
+    21300064: Hora_Transparente_32
+    21300066: Hora_Transparente_33
+    21300068: Hora_Transparente_34
+    21300070: Hora_Transparente_35
+    21300072: Hora_Transparente_36
+    21300074: Hora_Transparente_37
+    21300076: Hora_Transparente_38
+    21300078: Hora_Transparente_39
+    21300080: Hora_Transparente_40
+    21300082: Hora_Transparente_41
+    21300084: Hora_Transparente_42
+    21300086: Hora_Transparente_43
+    21300088: Hora_Transparente_44
+    21300090: Hora_Transparente_45
+    21300092: Hora_Transparente_46
+    21300094: Hora_Transparente_47
+    21300096: Hora_Transparente_48
+    21300098: Hora_Transparente_49
+    21300100: Hora_Transparente_50
+    21300102: Hora_Transparente_51
+    21300104: Hora_Transparente_52
+    21300106: Hora_Transparente_53
+    21300108: Hora_Transparente_54
+    21300110: Hora_Transparente_55
+    21300112: Hora_Transparente_56
+    21300114: Hora_Transparente_57
+    21300116: Hora_Transparente_58
+    21300118: Hora_Transparente_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Hora_Transparente_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1268
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1268
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1268
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_3
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1268
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_4
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1268
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_5
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1268
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1133
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_7
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1133
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_8
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1133
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_9
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1133
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_10
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1133
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_11
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1133
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 998
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_13
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 998
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_14
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 998
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_15
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 998
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_16
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 998
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_17
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 998
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 863
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_19
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 863
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_20
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 863
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_21
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 863
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_22
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 863
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_23
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 863
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 728
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_25
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 728
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_26
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 728
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_27
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 728
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_28
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 728
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_29
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 728
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 587
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_31
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 585
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_32
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 585
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_33
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 585
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_34
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 585
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_35
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 585
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 445
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_37
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 444
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_38
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 444
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_39
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 442
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_40
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 442
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_41
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 442
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_42
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 299
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_43
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 300
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_44
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 297
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_45
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 300
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_46
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 299
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_47
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 299
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 159
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 156
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_50
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 157
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_51
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 159
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_52
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 159
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_53
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 157
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_54
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 14
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_55
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 13
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_56
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 11
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_57
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 13
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_58
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 13
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hora_Transparente_59
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 11
+        width: 135
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
