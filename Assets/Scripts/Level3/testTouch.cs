@@ -3,41 +3,26 @@ using System.Collections;
 
 public class testTouch : MonoBehaviour {
 	
-	public Vector3 fingerPos;
-	public Vector3 realWorldPos;
+	public Vector2 fingerPos;
+	public Ray realWorldPos;
+	RaycastHit marcs;
 	void Update()
 	{
-		if(Input.touchSupported)
-		{
+		if(Input.touchCount > 0){
+		
 			fingerPos = Input.GetTouch(0).position;
-			Vector3 pos = fingerPos;
-			realWorldPos = Camera.main.ScreenToWorldPoint(pos);
-			realWorldPos.z = 0;
-			transform.localPosition = realWorldPos; 
-		}else
-		{
-			if(Input.GetKey(KeyCode.A))
-			{transform.position = new Vector3 (this.transform.position.x - 0.05f,
-											   this.transform.position.y,
-				                               this.transform.position.z);
-         	}
-			if((Input.GetKey(KeyCode.D))){
-				transform.position = new Vector3 (this.transform.position.x + 0.05f,
-				                                  this.transform.position.y,
-				                                  this.transform.position.z);
-			}
-			if((Input.GetKey(KeyCode.W))){
-				transform.position = new Vector3 (this.transform.position.x,
-				                                  this.transform.position.y + 0.05f,
-				                                  this.transform.position.z);
-			}
+			Vector2 pos = fingerPos;
+			realWorldPos = Camera.main.ScreenPointToRay(pos);
+			//Vector3 albertinho = new Vector3(realWorldPos.x,realWorldPos.y,0);
+			//transform.position = albertinho; 
 			
-			if((Input.GetKey(KeyCode.S))){
-				transform.position = new Vector3 (this.transform.position.x,
-				                                  this.transform.position.y - 0.05f,
-				                                  this.transform.position.z);
-        	}
+			if(Physics.Raycast(realWorldPos, out marcs))
+			{
+				this.transform.position = new Vector3(marcs.point.x,marcs.point.y,0);
+			}
 		}
+		
+		
 		if(!GameObject.FindGameObjectWithTag("Dirt"))
 		{
 			Application.LoadLevel("Fase4");
@@ -52,6 +37,11 @@ public class testTouch : MonoBehaviour {
 				GameObject.Find (col.gameObject.name).GetComponent<dirtBehaviour>().numBrushesOn +=1;
 			else Destroy(col.gameObject);
 		}
+	}
+	
+	void OnMouseDown()
+	{
+		Debug.Log(Input.mousePosition.ToString());
 	}
 	
 }

@@ -7,7 +7,7 @@ public class dirtBehaviour : MonoBehaviour {
 	public int numBrushesOn;
 	// Use this for initialization
 	void Start () {
-		numBrushes = 2;
+		numBrushes = 4;
 		numBrushesOn = 0;
 	}
 }

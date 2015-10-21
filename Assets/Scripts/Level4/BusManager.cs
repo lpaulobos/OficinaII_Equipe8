@@ -12,7 +12,6 @@ public class BusManager : MonoBehaviour {
 	void Start()
 	{	
 		people.Add(GameObject.Find("Estudante"));
-		people.Add(GameObject.Find("Idoso"));
 		people.Add(GameObject.Find("Cadeirante"));
 	}
 
@@ -37,14 +36,14 @@ public class BusManager : MonoBehaviour {
 		count++;
 
 		if (count >= 120) {
-			InstantiateBus (Random.Range (0, 3));
+			InstantiateBus (Random.Range (0, 2));
 			count = 0;
 		}
 		if(people.Count <= 0)
 		{
-			Application.Quit();
+			Application.LoadLevel(5);
 		}
-		
+		Debug.Log (people.Count);
 	}
 	void OnTriggerEnter2D(Collider2D colider)
 	{

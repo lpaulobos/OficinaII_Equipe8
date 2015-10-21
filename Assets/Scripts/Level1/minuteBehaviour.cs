@@ -33,7 +33,7 @@ public class minuteBehaviour : MonoBehaviour {
 			
 			Debug.Log ("Ganhou");
 			rodando = false;
-			Application.LoadLevel("Fase3");
+			Application.LoadLevel("transicao");
 		}
 	}
 }

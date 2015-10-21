@@ -12,9 +12,6 @@ public class BusBehaviour : MonoBehaviour {
 		this.gameObject.collider2D.isTrigger = true;
 
 		switch (this.gameObject.name) {
-			case "GreenBus":
-				this.gameObject.tag = "Idoso";
-				break;
 			case "BlueBus":
 				this.gameObject.tag = "Cadeirante";
 				break;
@@ -26,11 +23,12 @@ public class BusBehaviour : MonoBehaviour {
 
 		randomic = Random.Range (0.1f, 0.35f);
 	}
-	// Update is called once per frame
+	
 	void Update () {
 		this.transform.position += new Vector3 (randomic, 0, 0);
 		if (this.transform.position.x >= 12.5f) {
 			Destroy(this.gameObject);
 		}
+		
 	}
 }
