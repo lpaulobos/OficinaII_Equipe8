@@ -6,34 +6,66 @@ public class minuteBehaviour : MonoBehaviour {
 		
 	Sprite[] sprites;
 	private SpriteRenderer sr;
-	float tempo = 0.15f;
+	public SpriteRenderer hr;
+	float tempo = 0.25f;
 	public float countTime;
 	public int countImage = 0;
-	public bool rodando = true;
+	public int hourCountImage = 5;
+	bool rodando = true;
 
 	// Use this for initialization
 	void Start () {
 		countTime = tempo;
-		sr = this.gameObject.GetComponent<SpriteRenderer>(); 
+		sr = this.gameObject.GetComponent<SpriteRenderer>();
+		hr = GameObject.Find("hour").GetComponent<SpriteRenderer>();
 		sprites = Resources.LoadAll<Sprite> ("Imagens/Level1/JPG");
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		countTime -= Time.deltaTime;
-			
-		if (countTime <= 0 && rodando && !GameObject.Find("hour").GetComponent<hourBehaviour>().rodando) {
-			countImage += 1;
-			if (countImage > 59) {countImage = 0;}
-			sr.sprite = sprites [countImage];
-			countTime = tempo;
+	void Update () 
+	{
+		if(rodando)
+		{
+			countTime -= Time.deltaTime;
+				
+			if (countTime <= 0) 
+			{
+				countImage += 5;
+				if (countImage > 59)
+				{
+					countImage = 0;
+					hourCountImage += 1;
+					hr.sprite = sprites[hourCountImage];
+				}
+				sr.sprite = sprites [countImage];
+				hr.sprite = sprites [hourCountImage];
+				countTime = tempo;
+			}
+				
+			if (Input.GetButtonDown ("Fire1") && (countImage >= 24 && countImage <= 34)) {
+				
+				Debug.Log ("Ganhou");
+				Application.LoadLevel("transicao");
+			}
 		}
-			
-		if (Input.GetButtonDown ("Fire1") && (countImage >= 24 && countImage <= 34) && !GameObject.Find("hour").GetComponent<hourBehaviour>().rodando) {
-			
-			Debug.Log ("Ganhou");
-			rodando = false;
-			Application.LoadLevel("transicao");
+		if(Input.GetMouseButton(0))
+		{
+			clickou();
 		}
+	}
+	void clickou()
+	{
+		PlayerPrefs.SetInt("points",0);
+		rodando = false;
+		int pts = (hourCountImage * 100) + countImage;
+		if(pts >= 615 && pts <= 640)
+		{
+			PlayerPrefs.SetInt("points", PlayerPrefs.GetInt("points") + 150);
+		}
+		else if(pts >= 530 && pts <= 615 || pts >= 640 && pts <= 700)
+		{
+			PlayerPrefs.SetInt("points", PlayerPrefs.GetInt("points") + 75);
+		}
+		Debug.Log(PlayerPrefs.GetInt("points"));
 	}
 }

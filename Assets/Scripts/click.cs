@@ -12,7 +12,7 @@ public class click : MonoBehaviour {
     void OnMouseDown()
     {
         if (this.gameObject.name == "banheiro") {
-            GameObject.Find("boy").transform.position = new Vector2 (this.transform.position.x, GameObject.Find("boy").transform.position.y+ 0.8f);
+			GameObject.Find("boy").transform.position = new Vector2 (this.transform.position.x, -4.1f+0.8f);
             a.SetBool("clickou", true);
             StartCoroutine(sceneDelay(a.GetCurrentAnimatorStateInfo(0).length));
         }
@@ -22,5 +22,4 @@ public class click : MonoBehaviour {
         yield return new WaitForSeconds(_time);
         Application.LoadLevel("Fase3");
     }
-
 }

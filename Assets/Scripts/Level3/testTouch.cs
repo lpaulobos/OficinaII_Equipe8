@@ -6,6 +6,7 @@ public class testTouch : MonoBehaviour {
 	public Vector2 fingerPos;
 	public Ray realWorldPos;
 	RaycastHit marcs;
+	int pts;
 	void Update()
 	{
 		if(Input.touchCount > 0){
@@ -25,7 +26,9 @@ public class testTouch : MonoBehaviour {
 		
 		if(!GameObject.FindGameObjectWithTag("Dirt"))
 		{
+			PlayerPrefs.SetInt("points",PlayerPrefs.GetInt("points") + pts);
 			Application.LoadLevel("Fase4");
+			
 		}
 	}
 	void OnTriggerEnter2D(Collider2D col)
@@ -35,7 +38,11 @@ public class testTouch : MonoBehaviour {
 			if(GameObject.Find (col.gameObject.name).GetComponent<dirtBehaviour>().numBrushesOn < 
 			   GameObject.Find (col.gameObject.name).GetComponent<dirtBehaviour>().numBrushes)
 				GameObject.Find (col.gameObject.name).GetComponent<dirtBehaviour>().numBrushesOn +=1;
-			else Destroy(col.gameObject);
+			else 
+			{
+				Destroy(col.gameObject);
+				pts += 25;
+			}
 		}
 	}
 	
