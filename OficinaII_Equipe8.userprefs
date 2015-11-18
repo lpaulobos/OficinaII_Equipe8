@@ -1,9 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Downloads\God-s-Game-of-Cube-master\God-s-Game-of-Cube-master\Assets\Resources\Scripts\ScoreScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Level3\dirtBehaviour.cs">
     <Files>
-      <File FileName="..\..\..\Downloads\God-s-Game-of-Cube-master\God-s-Game-of-Cube-master\Assets\Resources\Scripts\PlayerMovement.cs" Line="83" Column="64" />
-      <File FileName="..\..\..\Downloads\God-s-Game-of-Cube-master\God-s-Game-of-Cube-master\Assets\Resources\Scripts\ScoreScript.cs" Line="21" Column="33" />
+      <File FileName="Assets\Scripts\Level2\clothSelect.cs" Line="48" Column="1" />
+      <File FileName="Assets\Scripts\Level2\hangerBehaviour.cs" Line="30" Column="1" />
+      <File FileName="Assets\Scripts\Drag.cs" Line="10" Column="41" />
+      <File FileName="Assets\Scripts\Level3\dirtBehaviour.cs" Line="27" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

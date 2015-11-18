@@ -36,29 +36,12 @@ public class clothSelect : MonoBehaviour {
 			
 	
 	}
+	void OnMouseDrag()
+	{
+		Vector3 curPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		curPosition.z = 0;
+		this.transform.position = curPosition;
+		Debug.Log (curPosition);
 	
-	// Update is called once per frame
-	void Update () {
-		countTime -= Time.deltaTime;
-		
-		if (countTime <= 0 && selected == "selected") 
-		{
-
-			countShirt += 1;
-
-			if(countShirt >= this.sprites.Length){
-				countShirt = 0;
-			}
-
-			cloth.sprite = sprites[countShirt];
-			countTime = time;
-		
-		}
-		
-		if (Input.GetButtonDown ("Fire1") && countShirt == rightAnswer) 
-		{
-			selected = "changed";
-			Application.LoadLevel("Fase3");
-		}
 	}
 }
