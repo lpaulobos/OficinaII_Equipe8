@@ -16,7 +16,7 @@ public class dirtBehaviour : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col)
 	{
-		if(col.gameObject.tag == "Escova")
+		if(col.gameObject.name == "brush")
 		{
 			this.numBrushesOn += 1;
 			Debug.Log("Colliding");

@@ -8,5 +8,6 @@ public class Drag : MonoBehaviour {
 		Vector3 curPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		curPosition.z = 0;
 		this.transform.position = curPosition;
+		Debug.Log (Input.mousePosition);
 	}
 }

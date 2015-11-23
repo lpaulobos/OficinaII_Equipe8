@@ -12,7 +12,7 @@ public class BusBehaviour : MonoBehaviour {
 		this.gameObject.collider2D.isTrigger = true;
 
 		switch (this.gameObject.name) {
-			case "BlueBus":
+			case "RedBus":
 				this.gameObject.tag = "Cadeirante";
 				break;
 			case "YellowBus":

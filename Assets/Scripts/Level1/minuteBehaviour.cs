@@ -43,8 +43,6 @@ public class minuteBehaviour : MonoBehaviour {
 			}
 				
 			if (Input.GetButtonDown ("Fire1") && (countImage >= 24 && countImage <= 34)) {
-				
-				Debug.Log ("Ganhou");
 				Application.LoadLevel("transicao");
 			}
 		}

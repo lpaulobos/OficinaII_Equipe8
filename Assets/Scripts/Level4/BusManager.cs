@@ -9,11 +9,6 @@ public class BusManager : MonoBehaviour {
 	public GameObject col;
 	public List<GameObject> people = new List<GameObject>();
 
-	void Start()
-	{	
-		people.Add(GameObject.Find("Estudante"));
-		people.Add(GameObject.Find("Cadeirante"));
-	}
 
 	void InstantiateBus(int a)
 	{	
@@ -41,9 +36,8 @@ public class BusManager : MonoBehaviour {
 		}
 		if(people.Count <= 0)
 		{
-			Application.LoadLevel(5);
+			Application.LoadLevel(6);
 		}
-		Debug.Log (people.Count);
 	}
 	void OnTriggerEnter2D(Collider2D colider)
 	{

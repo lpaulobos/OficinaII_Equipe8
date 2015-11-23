@@ -1,11 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Level3\dirtBehaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\NewTest.cs">
     <Files>
-      <File FileName="Assets\Scripts\Level2\clothSelect.cs" Line="48" Column="1" />
-      <File FileName="Assets\Scripts\Level2\hangerBehaviour.cs" Line="30" Column="1" />
-      <File FileName="Assets\Scripts\Drag.cs" Line="10" Column="41" />
-      <File FileName="Assets\Scripts\Level3\dirtBehaviour.cs" Line="27" Column="1" />
+      <File FileName="Assets\Scripts\Level5\rotation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Level1\minuteBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NewTest.cs" Line="31" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
